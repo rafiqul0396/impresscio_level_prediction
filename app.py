@@ -16,13 +16,13 @@ def get_vectorizer():
     return joblib.load(vpath)
 
 def get_classifier():
-    folder_path='C:/Users/rafiqul.islam/IdeaProjects/untitled7/data'
+    folder_path='data'
     clf = "classifier.pickle"
     clfPath = os.path.join(folder_path, clf)
     return joblib.load(clfPath)
 
 def predict2(userInput):
-    folder_path='C:/Users/rafiqul.islam/IdeaProjects/untitled7/data'
+    folder_path='data'
     if not isinstance(userInput, str):
         raise ValueError("Input should be a string")
     #folder_path = os.path.join(".", "modelStudy")  # Assumes that modelStudy is in the same directory
@@ -37,7 +37,7 @@ def predict2(userInput):
     else:
         return []
 def get_findvalue(val):
-    df=pd.read_csv('C:/Users/rafiqul.islam/Desktop/modelStudy/classes.csv')
+    df=pd.read_csv('data/classes.csv')
     dict_data = dict(zip(df.classID, df.Classification))
     #print(dict_data[val])
     return dict_data[val]
