@@ -1,5 +1,5 @@
 # download using 
-[I'm an inline-style link  for download ](https://github.com/rafiqul0396/impresscio_level_prediction/archive/refs/heads/master.zip")
+[I'm an inline-style link  for download ](https://github.com/rafiqul0396/impresscio_level_prediction")
 
 
 # run the requirement  file 
