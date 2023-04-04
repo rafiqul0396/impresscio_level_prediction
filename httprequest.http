@@ -1,0 +1,9 @@
+POST http://127.0.0.1:5000/api/data
+Content-Type: application/json
+
+{
+  "message":"Cordless Drill/Driver Kit 12.0V 3/8in."
+}
+
+###
+GET  http://127.0.0.1:5000
