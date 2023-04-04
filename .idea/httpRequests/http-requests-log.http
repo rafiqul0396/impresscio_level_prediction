@@ -1,0 +1,30 @@
+POST http://127.0.0.1:5000/api/data
+Content-Type: application/json
+Content-Length: 56
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "message":"Cordless Drill/Driver Kit 12.0V 3/8in."
+}
+
+<> 2023-04-04T190204.200.json
+
+###
+
+POST http://127.0.0.1:5000/api/data
+Content-Type: application/json
+Content-Length: 56
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "message":"Cordless Drill/Driver Kit 12.0V 3/8in."
+}
+
+<> 2023-04-04T190201.200.json
+
+###
+
